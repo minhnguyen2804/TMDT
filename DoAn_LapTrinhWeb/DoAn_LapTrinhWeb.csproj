@@ -170,6 +170,29 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.3.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.3.0\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -187,32 +210,8 @@
     </Reference>
     <Reference Include="System.Net.Http.WebRequest">
     </Reference>
-    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -1337,7 +1336,6 @@
     <Content Include="fonts\Pe-icon-7-stroke.svg" />
     <Content Include="fonts\slick\ajax-loader.gif" />
     <Content Include="fonts\slick\slick.svg" />
-    <Content Include="Images\ImagesAvatar\test.jpg" />
     <Content Include="Images\ImagesBanner\apple-giam-6-trieu.jpg" />
     <Content Include="Images\ImagesBanner\banner-doc-2-ben.jpg" />
     <Content Include="Images\ImagesBanner\gaming-gear-giam-45.jpg" />
@@ -1431,8 +1429,6 @@
     <Content Include="Images\ImagesGenre\phan-mem.jpg" />
     <Content Include="Images\ImagesGenre\tai-nghe.jpg" />
     <Content Include="Images\ImagesGenre\usb.jpg" />
-    <Content Include="Images\ImagesLaptop\lenovo-yoga-9-14itl5-i7-82bg006evn-600x600.jpg" />
-    <Content Include="Images\ImagesLaptop\msi-summit-e13-flip-i7-211vn-600x600.jpg" />
     <Content Include="Images\ImagesMonitor\man-hinh-asus-27-vg278q.jpg" />
     <Content Include="Images\ImagesMonitor\man-hinh-dell-ultrasharp-24-u2412m.jpg" />
     <Content Include="Images\ImagesMonitor\man-hinh-lg-238-24mk430h-b.jpg" />
@@ -1787,6 +1783,24 @@
     <Content Include="Images\svg\misc\retweet.svg" />
     <Content Include="Images\svg\misc\smartphone.svg" />
     <Content Include="Images\svg\misc\video-play.svg" />
+    <Content Include="Images\ImagesCollection\abc23.png" />
+	
+    <Content Include="Images\SanPham\sua-colosbaby-gold-0-1-100x100.jpg" />
+    <Content Include="Images\SanPham\acasw23.jpg" />
+    <Content Include="Images\SanPham\ss213a.jpg" />
+    <Content Include="Images\SanPham\sua-eneric-kid-1-1.jpg" />
+    <Content Include="Images\SanPham\sua-eneric-kid-1-2.jpg" />
+    <Content Include="Images\SanPham\sua-eneric-kid-1-250x250.jpg" />
+    <Content Include="Images\SanPham\sua-forticare-caphe-100x100.jpg" />
+    <Content Include="Images\SanPham\sua-forticare-capuccino-2.jpg" />
+    <Content Include="Images\SanPham\sua-forticare-capuccino-250x250.jpg" />
+    <Content Include="Images\SanPham\sua-grow-plus-900g-1.jpg" />
+    <Content Include="Images\SanPham\sua-grow-plus-do-900g-250x250.jpg" />
+    <Content Include="Images\SanPham\sua-meta-care-1-2.jpg" />
+    <Content Include="Images\SanPham\sua-meta-care-so-1-250x250.jpg" />
+    <Content Include="Images\SanPham\sua-non-ildong-2-2.jpg" />
+    <Content Include="Images\SanPham\sua-non-ildong-2-250x250.jpg" />
+    
     <Content Include="Images\svg\payment-methods\americanexpress.svg" />
     <Content Include="Images\svg\payment-methods\mastercard.svg" />
     <Content Include="Images\svg\payment-methods\paypal.svg" />
@@ -1801,21 +1815,6 @@
     <Content Include="Images\svg\shapes\abstract-7.svg" />
     <Content Include="Images\svg\shapes\abstract-8.svg" />
     <Content Include="Images\svg\shapes\abstract-9.svg" />
-    <Content Include="Images\_thumbs\Images_Collection\150-2.jpg" />
-    <Content Include="Images\_thumbs\Images_Collection\banner-detail.jpg" />
-    <Content Include="Images\_thumbs\Images_Collection\banner-horizonal-1.jpg" />
-    <Content Include="Images\_thumbs\Images_Collection\banner-horizonal-2.jpg" />
-    <Content Include="Images\_thumbs\Images_Collection\banner-horizonal-3.jpg" />
-    <Content Include="Images\_thumbs\Images_Collection\banner-horizonal-4.jpg" />
-    <Content Include="Images\_thumbs\Images_Collection\banner-mini-1.png" />
-    <Content Include="Images\_thumbs\Images_Collection\banner-mini-2.jpg" />
-    <Content Include="Images\_thumbs\Images_Collection\banner-mini-3.png" />
-    <Content Include="Images\_thumbs\Images_Collection\banner-mini-4.png" />
-    <Content Include="Images\_thumbs\Images_Collection\image_profile_default.png" />
-    <Content Include="Images\_thumbs\Images_Collection\no-image.jpg" />
-    <Content Include="Images\_thumbs\Images_Collection\thumbnail.jpg" />
-    <Content Include="Images\_thumbs\Image_Laptop\lenovo-yoga-9-14itl5-i7-82bg006evn-600x600.jpg" />
-    <Content Include="Images\_thumbs\Image_Laptop\msi-summit-e13-flip-i7-211vn-600x600.jpg" />
     <Content Include="obj\Debug\DoAn_LapTrinhWeb.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\DoAn_LapTrinhWeb.dll" />
     <Content Include="obj\Debug\DoAn_LapTrinhWeb.pdb" />
