@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace DoAn_LapTrinhWeb
 {
-
+    //test
     public class DbContext : System.Data.Entity.DbContext
     {
         public DbContext()
